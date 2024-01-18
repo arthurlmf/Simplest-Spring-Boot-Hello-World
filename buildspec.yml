@@ -7,4 +7,4 @@ phases:
   build:
     commands:
       - echo Running mvn
-      - mvn --version
+      - mvn --$ENVVAR
