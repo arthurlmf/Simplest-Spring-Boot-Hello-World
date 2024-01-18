@@ -4,9 +4,6 @@ phases:
   install:
     commands:
       - echo Installing Maven...
-      - wget https://downloads.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.zip
-      - unzip apache-maven-3.8.6-bin.zip
-      - export PATH=$PATH:$PWD/apache-maven-3.8.6/bin
   build:
     commands:
       - echo Running mvn
