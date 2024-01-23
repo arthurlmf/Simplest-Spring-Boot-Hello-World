@@ -9,5 +9,6 @@ phases:
       - echo Installing Maven...
   build:
     commands:
+      - echo DB_USERNAME eh $DB_USERNAME
       - echo Running mvn
       - mvn --$ENVVAR
