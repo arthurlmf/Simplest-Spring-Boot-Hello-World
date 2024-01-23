@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   parameter-store:
-    SECRET_TOKEN: "MY_SECRET_TOKEN"
+    DB_USERNAME: "db_username"
 phases:
   install:
     commands:
